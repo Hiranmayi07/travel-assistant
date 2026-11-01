@@ -1,31 +1,52 @@
-# travel-assistant
-a traveller company to help you guide through a new environment and completely whole new region or world.
-3problem statement
+# Travel Assistant
 
-Suppose you planned a solo trip where you want to explore new places, countries. But you dont know what the airport display says, what the hotel menu card says. You want to order food at the restaurant but you dont know the language there or you cant even read the items in the menu, what ingredients does it has , etc,. 
+[One sentence, in your words: who it's for and what it helps them do. Mention language/communication, not "guide through a new world".]
 
-#Persona
+> **Status:** 🚧 In early development. Currently in Phase 0 (project setup and documentation). Nothing is deployed yet.
 
-Persona 1: Hiranmayi	
-Who	:21, first international trip, 
-Comfort with tech	:High	
-Main fear:	Eating something she’s allergic to, 
-Key needs:	Menu photos, allergy phrases, directions	
-Constraints:	Patchy mobile data, one hand busy
+## The problem
 
-#Main Traveller Journeys
+[2-3 sentences, in your words: who has the problem, what they can't do, why it matters.]
 
-1.“What does this menu say?” Photo → translated menu → check allergens → show a phrase to the waiter.
-2.“I need a taxi to my hotel.” Choose the situation (Taxi) → type or say it → hear Korean → show the screen to the driver.
-3.“Talk to the hotel receptionist.” Conversation mode with turn-taking: I speak, they speak, and each of us sees and hears our own language.
+Full write-up: [docs/problem-statement.md](docs/problem-statement.md)
 
-#MUST HAVE (MVP core) FEATURES
+## Planned features
 
-Text → text translation, source/target selection, auto-detect
-Travel context (country + situation) that shapes the translation
-Text → speech (playback of the translation)
-Speech → text (with an edit-before-translate step)
-Travel phrasebook by category (start with 5-6 categories, not 16)
-Image → translated text (menus and signs) via a vision model
-Proper loading and error states, input validation, hidden API keys
-Deployed and documented
+These are the MVP goals, not finished features.
+
+- [ ] Text translation with source/target language selection
+- [ ] Travel context (country + situation)
+- [ ] Text-to-speech playback
+- [ ] Speech-to-text with edit before translating
+- [ ] Travel phrasebook by category
+- [ ] Image translation (menus and signs)
+
+(Tick each box as it's actually built and working.)
+
+## Tech stack (planned)
+
+- Frontend: React + Tailwind CSS
+- Backend: Node.js + Express
+- AI: [provider to be decided]
+
+## Roadmap
+
+| Phase | Goal | Status |
+|---|---|---|
+| 0 | Foundations and docs | In progress |
+| 1 | Text translation + phrasebook | Not started |
+| 2 | Voice and image | Not started |
+| 3 | Tests, database, accounts | Not started |
+| 4 | AI agent | Not started |
+| 5 | Mobile and Play Store prep | Not started |
+| 6 | Polish and launch | Not started |
+
+Target launch: June 2027.
+
+## Setup
+
+Coming soon. This will be filled in once there is code to run.
+
+## Author
+
+[Your name] · [GitHub profile or LinkedIn link]
